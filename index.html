@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation" >
+        <div >
+            <img src="ball.png" width="50px" height="auto">
+        </div>
+
+        <div class="navig">
+            <button>All</button>
+            <button>Adidas</button>
+            <button>Nike</button>
+        </div>
+    </div>
+    <div id="advertisement">
+        <div class="modal-content">
+            <h2>Реклама</h2>
+            <p>Контент</p>
+            <button class="dismiss-button" onclick="closeAdvertisement()">Закрити</button>
+        </div>
+    </div>
+    <div id="cardsContainer">
+        <div class="image-card">
+            <div class="image_and_text-container">
+                <img class="image" src="nike.jpg">
+                <h4>Nike</h4>
+                <p>Опис</p>
+            </div>
+        </div>
+        <div class="image-card"> 
+            <div class="image_and_text-container">
+                <img class="image" src="adidas.jpg">
+                <h4>Adidas</h4>
+                <p>Опис</p>
+            </div>
+        </div> 
+    </div>
+    <script src='Advert.js'></script>
+    <script src='Category.js'></script>
+    
+</body>
+</html>
